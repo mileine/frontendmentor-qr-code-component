@@ -26,27 +26,33 @@ body {
   padding: 20px;
 }
 
-/* QR code image styling */
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card__img {
   width: 100%;
-  display: block;
+  max-width: 288px;
   border-radius: 10px;
 }
 
-/* Heading styling */
 .card__title {
-  font-size: 1.5rem;
+  font-size: 22px;
+  line-height: 120%;
   color: #1f3251;
   margin: 20px 0 10px;
   font-weight: 700;
 }
 
-/* Paragraph styling */
 .card__description {
   font-size: 1rem;
   font-weight: 400;
   color: #7b879d;
   line-height: 1.5;
+  max-width: 288px;
+  width: 100%;
 }
 
 .attribution { 
